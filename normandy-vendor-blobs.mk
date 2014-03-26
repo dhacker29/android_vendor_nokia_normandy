@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin \
     vendor/nokia/normandy/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin \
     vendor/nokia/normandy/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/nullTestFlow.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/nullTestFlow.bin \
-    vendor/nokia/normandy/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/softmac:system/etc/firmware/ath6k/AR6003/hw2.1.1/softmac \
     vendor/nokia/normandy/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/utf.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/utf.bin \
     vendor/nokia/normandy/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/nokia/normandy/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -115,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     vendor/nokia/normandy/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/nokia/normandy/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/nokia/normandy/proprietary/lib/libqcom_omx.so:system/lib/libqcom_omx.so \
     vendor/nokia/normandy/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/nokia/normandy/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/nokia/normandy/proprietary/lib/libqdp.so:system/lib/libqdp.so \
@@ -138,15 +136,9 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/nokia/normandy/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/nokia/normandy/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_a8140_default_video.so:system/lib/libchromatix_a8140_default_video.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_a8140_preview.so:system/lib/libchromatix_a8140_preview.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_a8140_video_hfr.so:system/lib/libchromatix_a8140_video_hfr.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ar0542_default_video.so:system/lib/libchromatix_ar0542_default_video.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ar0542_preview.so:system/lib/libchromatix_ar0542_preview.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ar0542_video_hfr.so:system/lib/libchromatix_ar0542_video_hfr.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ar0543_default_video.so:system/lib/libchromatix_ar0543_default_video.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ar0543_preview.so:system/lib/libchromatix_ar0543_preview.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ar0543_video_hfr.so:system/lib/libchromatix_ar0543_video_hfr.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
@@ -162,15 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_dl_bd631ac_default_video.so:system/lib/libchromatix_ov5647_dl_bd631ac_default_video.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_dl_bd631ac_preview.so:system/lib/libchromatix_ov5647_dl_bd631ac_preview.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_dl_bd631ac_video_hfr.so:system/lib/libchromatix_ov5647_dl_bd631ac_video_hfr.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_hq_dg806t_default_video.so:system/lib/libchromatix_ov5647_hq_dg806t_default_video.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_hq_dg806t_preview.so:system/lib/libchromatix_ov5647_hq_dg806t_preview.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_hq_dg806t_video_hfr.so:system/lib/libchromatix_ov5647_hq_dg806t_video_hfr.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_partr_cm500_default_video.so:system/lib/libchromatix_ov5647_partr_cm500_default_video.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_partr_cm500_preview.so:system/lib/libchromatix_ov5647_partr_cm500_preview.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_partr_cm500_video_hfr.so:system/lib/libchromatix_ov5647_partr_cm500_video_hfr.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_preview.so:system/lib/libchromatix_ov5647_preview.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_truly_cm6868_default_video.so:system/lib/libchromatix_ov5647_truly_cm6868_default_video.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ov5647_truly_cm6868_preview.so:system/lib/libchromatix_ov5647_truly_cm6868_preview.so \
@@ -188,8 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ov8825_preview.so:system/lib/libchromatix_ov8825_preview.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ov9726_preview.so:system/lib/libchromatix_ov9726_preview.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_s5k3h2_sunny_q8s02e_default_video.so:system/lib/libchromatix_s5k3h2_sunny_q8s02e_default_video.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_s5k3h2_sunny_q8s02e_preview.so:system/lib/libchromatix_s5k3h2_sunny_q8s02e_preview.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
@@ -199,8 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
     vendor/nokia/normandy/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_vx6953_default_video.so:system/lib/libchromatix_vx6953_default_video.so \
-    vendor/nokia/normandy/proprietary/lib/libchromatix_vx6953_preview.so:system/lib/libchromatix_vx6953_preview.so \
     vendor/nokia/normandy/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/nokia/normandy/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/nokia/normandy/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
