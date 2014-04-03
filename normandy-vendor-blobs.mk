@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/bin/akmdfs:system/bin/akmdfs \
-    vendor/nokia/normandy/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/nokia/normandy/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/nokia/normandy/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/nokia/normandy/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -97,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/nokia/normandy/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/nokia/normandy/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
