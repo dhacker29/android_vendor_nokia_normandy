@@ -18,10 +18,12 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/bin/akmdfs:system/bin/akmdfs \
     vendor/nokia/normandy/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/nokia/normandy/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/nokia/normandy/proprietary/bin/cnd:system/bin/cnd \
     vendor/nokia/normandy/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/nokia/normandy/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/nokia/normandy/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/nokia/normandy/proprietary/bin/fstrim:system/bin/fstrim \
+    vendor/nokia/normandy/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/nokia/normandy/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/nokia/normandy/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/nokia/normandy/proprietary/bin/netmgrd:system/bin/netmgrd \
