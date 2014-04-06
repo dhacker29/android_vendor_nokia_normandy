@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/nokia/normandy/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/nokia/normandy/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+    vendor/nokia/normandy/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/nokia/normandy/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/nokia/normandy/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/nokia/normandy/proprietary/lib/libextRil.so:system/lib/libextRil.so \
