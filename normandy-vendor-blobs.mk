@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/etc/loc_parameter.ini:system/etc/loc_parameter.ini \
     vendor/nokia/normandy/proprietary/etc/OperatorPolicy.xml:system/etc/OperatorPolicy.xml \
     vendor/nokia/normandy/proprietary/etc/UserPolicy.xml:system/etc/UserPolicy.xml \
+    vendor/nokia/normandy/proprietary/lib/hw/audio.primary.msm7x27a.so:system/lib/hw/audio.primary.msm7x27a.so \
     vendor/nokia/normandy/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/nokia/normandy/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
     vendor/nokia/normandy/proprietary/lib/hw/sensors.7x27a.so:system/lib/hw/sensors.7x27a.so \
