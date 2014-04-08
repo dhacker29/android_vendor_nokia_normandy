@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/bin/psensorCal:system/bin/psensorCal \
     vendor/nokia/normandy/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/nokia/normandy/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/nokia/normandy/proprietary/bin/qosmgr:system/bin/qosmgr \
     vendor/nokia/normandy/proprietary/bin/radish:system/bin/radish \
     vendor/nokia/normandy/proprietary/bin/rild:system/bin/rild \
     vendor/nokia/normandy/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -69,6 +70,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/nokia/normandy/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/nokia/normandy/proprietary/lib/libdsm.so:system/lib/libdsm.so \
+    vendor/nokia/normandy/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
+    vendor/nokia/normandy/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/nokia/normandy/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/nokia/normandy/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/nokia/normandy/proprietary/lib/libextRil.so:system/lib/libextRil.so \
@@ -96,7 +99,9 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+    vendor/nokia/normandy/proprietary/lib/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \
     vendor/nokia/normandy/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/nokia/normandy/proprietary/lib/libomx_amrenc_sharedlibrary.so:system/lib/libomx_amrenc_sharedlibrary.so \
     vendor/nokia/normandy/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
@@ -112,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/nokia/normandy/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
+    vendor/nokia/normandy/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \
     vendor/nokia/normandy/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/nokia/normandy/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
@@ -130,8 +136,12 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/nokia/normandy/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/nokia/normandy/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/nokia/normandy/proprietary/lib/libsnd.so:system/lib/libsnd.so \
+    vendor/nokia/normandy/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
     vendor/nokia/normandy/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/nokia/normandy/proprietary/lib/libtscamera-ext.so:system/lib/libtscamera-ext.so \
+    vendor/nokia/normandy/proprietary/lib/libulp.so:system/lib/libulp.so \
+    vendor/nokia/normandy/proprietary/lib/libulp2.so:system/lib/libulp2.so \
     vendor/nokia/normandy/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/nokia/normandy/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/nokia/normandy/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
