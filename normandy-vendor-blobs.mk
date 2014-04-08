@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/nokia/normandy/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/nokia/normandy/proprietary/bin/radish:system/bin/radish \
+    vendor/nokia/normandy/proprietary/bin/rild:system/bin/rild \
     vendor/nokia/normandy/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/nokia/normandy/proprietary/bin/sapd:system/bin/sapd \
     vendor/nokia/normandy/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
@@ -125,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/nokia/normandy/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/nokia/normandy/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+    vendor/nokia/normandy/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/nokia/normandy/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/nokia/normandy/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/nokia/normandy/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
