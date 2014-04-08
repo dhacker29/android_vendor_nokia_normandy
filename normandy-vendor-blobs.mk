@@ -137,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/nokia/normandy/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/nokia/normandy/proprietary/lib/libsnd.so:system/lib/libsnd.so \
-    vendor/nokia/normandy/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
     vendor/nokia/normandy/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/nokia/normandy/proprietary/lib/libtscamera-ext.so:system/lib/libtscamera-ext.so \
     vendor/nokia/normandy/proprietary/lib/libulp.so:system/lib/libulp.so \

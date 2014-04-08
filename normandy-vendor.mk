@@ -19,7 +19,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/nokia/normandy/overlay
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    libcommondefs
+    libcommondefs \
+    libsrsprocessing
 
 $(call inherit-product, vendor/nokia/normandy/normandy-vendor-blobs.mk)
 
