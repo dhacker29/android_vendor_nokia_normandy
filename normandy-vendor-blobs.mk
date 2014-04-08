@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/nokia/normandy/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/nokia/normandy/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+    vendor/nokia/normandy/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
     vendor/nokia/normandy/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/nokia/normandy/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/nokia/normandy/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
