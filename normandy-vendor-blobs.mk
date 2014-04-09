@@ -125,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/nokia/normandy/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     vendor/nokia/normandy/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
+    vendor/nokia/normandy/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/nokia/normandy/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/nokia/normandy/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/nokia/normandy/proprietary/lib/libqdi.so:system/lib/libqdi.so \
@@ -143,13 +144,9 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libtscamera-ext.so:system/lib/libtscamera-ext.so \
     vendor/nokia/normandy/proprietary/lib/libulp.so:system/lib/libulp.so \
     vendor/nokia/normandy/proprietary/lib/libulp2.so:system/lib/libulp2.so \
+    vendor/nokia/normandy/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
     vendor/nokia/normandy/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/nokia/normandy/proprietary/lib/libwms.so:system/lib/libwms.so \
-    vendor/nokia/normandy/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/nokia/normandy/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/nokia/normandy/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/nokia/normandy/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/nokia/normandy/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/nokia/normandy/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/nokia/normandy/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/nokia/normandy/proprietary/lib/libchromatix_ar0542_default_video.so:system/lib/libchromatix_ar0542_default_video.so \
