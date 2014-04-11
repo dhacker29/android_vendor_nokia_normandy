@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/utf.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/utf.bin \
     vendor/nokia/normandy/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/nokia/normandy/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/nokia/normandy/proprietary/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
     vendor/nokia/normandy/proprietary/etc/loc_parameter.ini:system/etc/loc_parameter.ini \
     vendor/nokia/normandy/proprietary/etc/OperatorPolicy.xml:system/etc/OperatorPolicy.xml \
     vendor/nokia/normandy/proprietary/etc/UserPolicy.xml:system/etc/UserPolicy.xml \
