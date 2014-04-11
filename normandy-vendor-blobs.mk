@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/nokia/normandy/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
     vendor/nokia/normandy/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/nokia/normandy/proprietary/lib/libadc.so:system/lib/libadc.so \
     vendor/nokia/normandy/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/nokia/normandy/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/nokia/normandy/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
