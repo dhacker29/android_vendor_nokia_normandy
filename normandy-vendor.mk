@@ -19,6 +19,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/nokia/normandy/overlay
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    libaudcal \
     libcommondefs \
     libsrsprocessing
 
