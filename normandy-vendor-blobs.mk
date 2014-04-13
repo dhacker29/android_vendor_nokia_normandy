@@ -125,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/nokia/normandy/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/nokia/normandy/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/nokia/normandy/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/nokia/normandy/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/nokia/normandy/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/nokia/normandy/proprietary/lib/libqmi.so:system/lib/libqmi.so \

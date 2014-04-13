@@ -21,7 +21,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/nokia/normandy/overlay
 PRODUCT_PACKAGES += \
     libaudcal \
     libcommondefs \
-    libsrsprocessing
+    libsrsprocessing \
+    libqc-opt
 
 $(call inherit-product, vendor/nokia/normandy/normandy-vendor-blobs.mk)
 
