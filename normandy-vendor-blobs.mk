@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/nokia/normandy/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/nokia/normandy/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    vendor/nokia/normandy/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/nokia/normandy/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/nokia/normandy/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     vendor/nokia/normandy/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
