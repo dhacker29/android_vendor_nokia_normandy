@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/normandy/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/nokia/normandy/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/nokia/normandy/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/nokia/normandy/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/nokia/normandy/proprietary/lib/libextRil.so:system/lib/libextRil.so \
     vendor/nokia/normandy/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/nokia/normandy/proprietary/lib/libgps.so:system/lib/libgps.so \
